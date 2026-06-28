@@ -1,0 +1,118 @@
+/* ==========================
+   Ravi's Doc Premium Theme
+========================== */
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:'Poppins',sans-serif;
+}
+
+html{
+    scroll-behavior:smooth;
+}
+
+body{
+    background:#05070d;
+    color:#ffffff;
+}
+
+a{
+    text-decoration:none;
+    color:white;
+}
+
+ul{
+    list-style:none;
+}
+
+/* Navbar */
+
+.navbar{
+
+    width:100%;
+
+    display:flex;
+
+    justify-content:space-between;
+
+    align-items:center;
+
+    padding:20px 8%;
+
+    background:rgba(0,0,0,.55);
+
+    backdrop-filter:blur(18px);
+
+    position:fixed;
+
+    top:0;
+
+    left:0;
+
+    z-index:1000;
+
+    border-bottom:1px solid rgba(255,255,255,.08);
+
+}
+
+.logo h1{
+
+    font-size:34px;
+
+    font-weight:800;
+
+    color:#4da3ff;
+
+}
+
+.logo p{
+
+    font-size:13px;
+
+    color:#b8c6d8;
+
+}
+
+.navbar ul{
+
+    display:flex;
+
+    gap:28px;
+
+    align-items:center;
+
+}
+
+.navbar ul li a{
+
+    transition:.3s;
+
+    font-weight:500;
+
+}
+
+.navbar ul li a:hover{
+
+    color:#4da3ff;
+
+}
+
+.login-btn{
+
+    background:#1976ff;
+
+    padding:12px 22px;
+
+    border-radius:12px;
+
+    transition:.3s;
+
+}
+
+.login-btn:hover{
+
+    background:#0f5bd9;
+
+}
